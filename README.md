@@ -5,3 +5,4 @@ C Programming Repository
 | ----------------- | ------------------------------------------------------------------ |
 
 1. Hello.c : | https://github.com/Ujjwal6403/C_Programming/blob/main/Hello.c
+2. CheckEvenOdd.c : | https://github.com/Ujjwal6403/C_Programming/blob/main/CheckEvenOdd.c
