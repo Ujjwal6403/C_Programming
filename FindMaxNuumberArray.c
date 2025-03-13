@@ -253,3 +253,7 @@ bool ArrayContain(int Arr[],int lenght, int Find)
    }
    return False;
 }
+int ArrayInsertion()
+{
+   
+}

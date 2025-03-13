@@ -8,7 +8,7 @@ int Findminimum(int Arr[], int ilength);
 int SortArrayWithDisendingOrder(int Arr[], int ilength);
 int FindSecondMinMax(int Arr[], int min,int max,int ilength);
 int SortArrayWithAssendingOrder(int Arr[],int ilenght);
-int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length);
+int* SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length);
 int FindArrayAvg(int Arr[], int length);
 int SumOfArray(int Arr[], int length);
 int CountIntegerArray(int Arr[]);
@@ -113,7 +113,7 @@ int SortArrayWithAssendingOrder(int Arr[],int ilenght)
 
 }
 
-int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
+int* SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
 {
       
    for(int i = 0; i < length; i++)
@@ -132,6 +132,7 @@ int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
          }
       }
    }
+   return Arr;
 }
 
 int FindArrayAvg(int Arr[], int length)

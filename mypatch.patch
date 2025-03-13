@@ -1,0 +1,76 @@
+diff --git a/ArrayOperation.h b/ArrayOperation.h
+index 39762cd..0243f8b 100644
+--- a/ArrayOperation.h
++++ b/ArrayOperation.h
+@@ -8,7 +8,7 @@ int Findminimum(int Arr[], int ilength);
+ int SortArrayWithDisendingOrder(int Arr[], int ilength);
+ int FindSecondMinMax(int Arr[], int min,int max,int ilength);
+ int SortArrayWithAssendingOrder(int Arr[],int ilenght);
+-int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length);
++int* SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length);
+ int FindArrayAvg(int Arr[], int length);
+ int SumOfArray(int Arr[], int length);
+ int CountIntegerArray(int Arr[]);
+@@ -113,7 +113,7 @@ int SortArrayWithAssendingOrder(int Arr[],int ilenght)
+ 
+ }
+ 
+-int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
++int* SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
+ {
+       
+    for(int i = 0; i < length; i++)
+@@ -132,6 +132,7 @@ int SortArrayWithASCAndReplaceDuplicateEleWithzero(int Arr[],int length)
+          }
+       }
+    }
++   return Arr;
+ }
+ 
+ int FindArrayAvg(int Arr[], int length)
+diff --git a/FindMaxNuumberArray.c b/FindMaxNuumberArray.c
+index 5697b72..11de3a9 100644
+--- a/FindMaxNuumberArray.c
++++ b/FindMaxNuumberArray.c
+@@ -252,4 +252,8 @@ bool ArrayContain(int Arr[],int lenght, int Find)
+       }
+    }
+    return False;
++}
++int ArrayInsertion()
++{
++   
+ }
+\ No newline at end of file
+diff --git a/FindMaxNuumberArray.exe b/FindMaxNuumberArray.exe
+index 596dd30..03ef061 100644
+Binary files a/FindMaxNuumberArray.exe and b/FindMaxNuumberArray.exe differ
+diff --git a/README.md b/README.md
+index 4fe67d0..a97383d 100644
+--- a/README.md
++++ b/README.md
+@@ -1,8 +1,7 @@
+ # C Programming Logic Building Practice
+ C Programming Repository
+-
++# Problems On N Number
+ | Program Name             | Link Of Source Code                                                                   |
+ | ----------------- | ------------------------------------------------------------------ |
+-
+-1. Hello.c : | https://github.com/Ujjwal6403/C_Programming/blob/main/Hello.c
+-2. CheckEvenOdd.c : | https://github.com/Ujjwal6403/C_Programming/blob/main/CheckEvenOdd.c
+\ No newline at end of file
++|1.DeleteAtPosInArray           |https://github.com/Ujjwal6403/C_Programming/blob/main/DeleteAtPosInArray.c
++|Input arr[]={10,22,21,55,60};   Position : 2        | output arr[]={10,22,55,60};
+\ No newline at end of file
+diff --git a/SortArray2.exe b/SortArray2.exe
+deleted file mode 100644
+index 48f27f2..0000000
+Binary files a/SortArray2.exe and /dev/null differ
+diff --git a/TestingArrayHeader.exe b/TestingArrayHeader.exe
+deleted file mode 100644
+index 526c4d7..0000000
+Binary files a/TestingArrayHeader.exe and /dev/null differ
+diff --git a/a.exe b/a.exe
+index 29d91dd..a64b101 100644
+Binary files a/a.exe and b/a.exe differ
