@@ -1,12 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-void FindPairOfSumGivenNum(int Arr[], int ilength, int Num)
+int FindFirstNonRepeatingNo(int Arr[], int ilength)
 {
    for (int i = 0; i < ilength; i++)
    {
-      if (Arr[i] + Arr[i + 1] == Num)
+      for (int j = 0; j < ilength; j++)
       {
-         printf("{%d %d}\n", Arr[i], Arr[i + 1]);
+         if (i != j)
+         {
+            if (Arr[i] == Arr[j])
+            {
+               Arr[i] = 0;
+               Arr[j] = 0;
+            }
+         }
+      }
+   }
+
+   for (int i = 0; i < 5; i++)
+   {
+      if (Arr[i] == 0)
+      {
+         continue;
+      }
+      else
+      {
+         printf("The First Non_repiting element number is %d ", Arr[i]);
+         break;
       }
    }
 }
@@ -18,7 +38,6 @@ int main()
    int *ptr = NULL;
    int icnt = 0;
    int iNo = 0;
-   
    printf("Enter the Number of array : \n");
    scanf("%d", &iSize);
 
@@ -37,10 +56,5 @@ int main()
    }
    printf("\n");
 
-   printf("Enter the number\n");
-   scanf("%d", &iNo);
-
-   FindPairOfSumGivenNum(ptr, iSize, iNo);
-
-   free(ptr);
+   FindFirstNonRepeatingNo(ptr, iSize);
 }

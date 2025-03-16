@@ -53,7 +53,7 @@ int main()
   }
   else
   {
-   printf("index of array is %d",iRet);
+   printf("Number is Not Present \n");
   }
    // printf("Maximum Number of Array is = %d \n",ptr[iSize-1]);
    // printf("Minimum Number of Array is = %d \n",ptr[0]);
