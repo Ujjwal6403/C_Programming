@@ -34,5 +34,11 @@ Input arr[] ={11, 22,101,909,805} |output : NotInArrayEachElementPallidrom ;
 # Problem Pattern printting
 |Pattern                    | Link Of Source Code
 |---------------------------|-------------------------------------------------------------------|
-|Pattern1                   | https://github.com/Ujjwal6403/Pattern/Basic/blob/main/Pattern1.c
+|Pattern1                   | https://github.com/Ujjwal6403/C_Programming/tree/main/Pattern/Basic/Pattern1.c
 |Input : 5.                 | Output: 1 2 3 4 5.
+|Pattern2                   | https://github.com/Ujjwal6403/C_Programming/tree/main/Pattern/Basic/Pattern2.c
+|Input : 5.                 | Output: 5 4 3 2 1.
+|Pattern3                   | https://github.com/Ujjwal6403/C_Programming/tree/main/Pattern/Basic/Pattern3.c
+|Input : 5.                 | Output: * # * # *.
+|Pattern4                   | https://github.com/Ujjwal6403/C_Programming/tree/main/Pattern/Basic/Pattern4.c
+|Input : 5.                 | Output: A # B # C #

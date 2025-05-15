@@ -1,4 +1,6 @@
 #include<stdio.h>
+//input =  5
+// $       1       $       2       $
 int Pattern4(int iNo)
 {
    int j = 1;

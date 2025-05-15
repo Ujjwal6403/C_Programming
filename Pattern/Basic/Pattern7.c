@@ -1,4 +1,6 @@
 #include<stdio.h>
+// Input : 5;
+// E       D       C       B       A
 int Pattern6(int iNo)
 {
    char ch = 'A';
